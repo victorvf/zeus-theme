@@ -1,13 +1,13 @@
 # zeus.nvim
 
-Um colorscheme claro e suave para Neovim, com fundo creme (off-white) e cores de sintaxe pensadas para longas sessões de leitura sem cansar a vista.
+A soft, light colorscheme for Neovim with a cream (off-white) background and syntax colors designed for long reading sessions without eye strain.
 
-## Requisitos
+## Requirements
 
 - Neovim >= 0.8
-- `termguicolors` habilitado
+- `termguicolors` enabled
 
-## Instalação
+## Installation
 
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -43,42 +43,42 @@ colorscheme zeus
 
 ### Manual
 
-Copie `colors/zeus.lua` para `~/.config/nvim/colors/` e rode:
+Copy `colors/zeus.lua` to `~/.config/nvim/colors/` and run:
 
 ```vim
 :colorscheme zeus
 ```
 
-## Uso
+## Usage
 
 ```lua
 vim.opt.termguicolors = true
 vim.cmd.colorscheme("zeus")
 ```
 
-## Paleta
+## Palette
 
-| Cor | Hex | Uso |
+| Color | Hex | Used for |
 | --- | --- | --- |
-| bg | `#FAF8F5` | Fundo creme |
-| bg_alt | `#F2F0ED` | Janelas flutuantes |
-| fg | `#4A4458` | Texto principal |
-| fg_comment | `#9590A0` | Comentários |
+| bg | `#FAF8F5` | Cream background |
+| bg_alt | `#F2F0ED` | Floating windows |
+| fg | `#4A4458` | Main text |
+| fg_comment | `#9590A0` | Comments |
 | pink | `#D64D7A` | Keywords |
 | purple | `#8B6DC4` | Decorators |
-| blue | `#4A7FCC` | Definição de funções |
-| blue_light | `#5BA3D9` | Parâmetros |
-| cyan | `#2A9D9D` | Classes e tipos |
+| blue | `#4A7FCC` | Function definitions |
+| blue_light | `#5BA3D9` | Parameters |
+| cyan | `#2A9D9D` | Classes and types |
 | green | `#50A050` | Strings |
-| yellow | `#C99520` | Constantes e números |
-| orange | `#D97030` | Chamadas de função |
-| red | `#C94A4A` | Erros, `self` |
-| coral | `#D96060` | Atributos e properties |
+| yellow | `#C99520` | Constants and numbers |
+| orange | `#D97030` | Function calls |
+| red | `#C94A4A` | Errors, `self` |
+| coral | `#D96060` | Attributes and properties |
 
-## Suporte a plugins
+## Plugin support
 
-- Treesitter e LSP semantic tokens
-- Diagnósticos do LSP
+- Treesitter and LSP semantic tokens
+- LSP diagnostics
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) / [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
@@ -92,6 +92,6 @@ vim.cmd.colorscheme("zeus")
 - [rainbow-delimiters.nvim](https://gitlab.com/HiPhish-Group/rainbow-delimiters.nvim)
 - [mini.nvim](https://github.com/echasnovski/mini.nvim)
 
-## Licença
+## License
 
 [MIT](LICENSE)
