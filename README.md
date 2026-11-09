@@ -58,22 +58,22 @@ vim.cmd.colorscheme("zeus")
 
 ## Palette
 
-| Color | Hex | Used for |
-| --- | --- | --- |
-| bg | `#FAF8F5` | Cream background |
-| bg_alt | `#F2F0ED` | Floating windows |
-| fg | `#4A4458` | Main text |
-| fg_comment | `#9590A0` | Comments |
-| pink | `#D64D7A` | Keywords |
-| purple | `#8B6DC4` | Decorators |
-| blue | `#4A7FCC` | Function definitions |
-| blue_light | `#5BA3D9` | Parameters |
-| cyan | `#2A9D9D` | Classes and types |
-| green | `#50A050` | Strings |
-| yellow | `#C99520` | Constants and numbers |
-| orange | `#D97030` | Function calls |
-| red | `#C94A4A` | Errors, `self` |
-| coral | `#D96060` | Attributes and properties |
+| | Color | Hex | Used for |
+| --- | --- | --- | --- |
+| <img src="assets/palette/bg.svg" width="20"> | bg | `#FAF8F5` | Cream background |
+| <img src="assets/palette/bg_alt.svg" width="20"> | bg_alt | `#F2F0ED` | Floating windows |
+| <img src="assets/palette/fg.svg" width="20"> | fg | `#4A4458` | Main text |
+| <img src="assets/palette/fg_comment.svg" width="20"> | fg_comment | `#9590A0` | Comments |
+| <img src="assets/palette/pink.svg" width="20"> | pink | `#D64D7A` | Keywords |
+| <img src="assets/palette/purple.svg" width="20"> | purple | `#8B6DC4` | Decorators |
+| <img src="assets/palette/blue.svg" width="20"> | blue | `#4A7FCC` | Function definitions |
+| <img src="assets/palette/blue_light.svg" width="20"> | blue_light | `#5BA3D9` | Parameters |
+| <img src="assets/palette/cyan.svg" width="20"> | cyan | `#2A9D9D` | Classes and types |
+| <img src="assets/palette/green.svg" width="20"> | green | `#50A050` | Strings |
+| <img src="assets/palette/yellow.svg" width="20"> | yellow | `#C99520` | Constants and numbers |
+| <img src="assets/palette/orange.svg" width="20"> | orange | `#D97030` | Function calls |
+| <img src="assets/palette/red.svg" width="20"> | red | `#C94A4A` | Errors, `self` |
+| <img src="assets/palette/coral.svg" width="20"> | coral | `#D96060` | Attributes and properties |
 
 ## Plugin support
 
